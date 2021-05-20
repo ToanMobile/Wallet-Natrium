@@ -1,0 +1,38 @@
+<component name="libraryTable">
+  <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.1" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.4" />
+      <root url="file://$USER_HOME$/.pub-cache/git/flutter_vibrate-8f9f1c20179ddf41003fcccf8a984fdeeaca1adc" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-2.0.0" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.0.0" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/shared_preferences_web-2.0.0" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/local_auth-1.1.5" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/devicelocale-0.4.1" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_nano_ffi-2.0.0" />
+      <root url="file://$USER_HOME$/.pub-cache/git/uni_links-9570b117a249b1e3ebe49d1d054dccb05489c7dd" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_webview_plugin-0.3.11" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/shared_preferences-2.0.5" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.1" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/shared_preferences_windows-2.0.0" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-2.0.0" />
+      <root url="file://$USER_HOME$/.pub-cache/git/flutter_barcode_reader-6d87bc6be6bef206e4cb03d676bb55b30531dd1b" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-2.0.0" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-7.0.3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/package_info-2.0.0" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage-4.2.0" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-2.0.0" />
+      <root url="file://$USER_HOME$/.pub-cache/git/root_checker-43d86d620a5b113cd9e0f06e933e225437e779b8" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/device_info-2.0.1" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/shared_preferences_linux-2.0.0" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/file_picker-3.0.0-nullsafety.2" />
+      <root url="file://$USER_HOME$/.pub-cache/git/plugins-900165b300b16489bf2b5d4a55b30be7c799293f/packages/share" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.1" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
