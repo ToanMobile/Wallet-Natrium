@@ -1,6 +1,6 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=/Users/vantoan/fvm/versions/dev
-FLUTTER_APPLICATION_PATH=/Users/vantoan/Downloads/coin/natrium_wallet_flutter-master
+FLUTTER_APPLICATION_PATH=/Volumes/Data/Freelancer/Flutter/coin/Wallet_Natrium
 COCOAPODS_PARALLEL_CODE_SIGN=true
 FLUTTER_TARGET=lib/main.dart
 FLUTTER_BUILD_DIR=build
@@ -11,4 +11,4 @@ EXCLUDED_ARCHS[sdk=iphonesimulator*]=arm64 i386
 DART_OBFUSCATION=false
 TRACK_WIDGET_CREATION=false
 TREE_SHAKE_ICONS=false
-PACKAGE_CONFIG=.packages
+PACKAGE_CONFIG=/Volumes/Data/Freelancer/Flutter/coin/Wallet_Natrium/.dart_tool/package_config.json

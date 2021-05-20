@@ -1,4 +1,4 @@
-package co.banano.natriumwallet;
+package App.tradebo.wefinex.mywallet;
 
 import android.os.Bundle;
 

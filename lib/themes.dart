@@ -1,7 +1,8 @@
 import 'dart:io';
+
+import 'package:barcode_scan/barcode_scan.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:barcode_scan/barcode_scan.dart';
 
 abstract class BaseTheme {
   Color primary;
@@ -45,7 +46,7 @@ abstract class BaseTheme {
   Color overlay80;
   Color overlay85;
   Color overlay90;
-  
+
   Color animationOverlayMedium;
   Color animationOverlayStrong;
 
@@ -70,9 +71,9 @@ class NatriumTheme extends BaseTheme {
 
   static const blueishGreyDark = Color(0xFF1E2C3D);
 
-  static const blueishGreyLight = Color(0xFF2A3A4D);
+  static const blueishGreyLight = Color(0xFF041C44);
 
-  static const blueishGreyDarkest = Color(0xFF1E2C3D);
+  static const blueishGreyDarkest = Color(0xFF031636);
 
   static const white = Color(0xFFFFFFFF);
 
@@ -125,8 +126,7 @@ class NatriumTheme extends BaseTheme {
   Color animationOverlayStrong = black.withOpacity(0.85);
 
   Brightness brightness = Brightness.dark;
-  SystemUiOverlayStyle statusBar =
-      SystemUiOverlayStyle.light.copyWith(statusBarColor: Colors.transparent);
+  SystemUiOverlayStyle statusBar = SystemUiOverlayStyle.light.copyWith(statusBarColor: Colors.transparent);
 
   BoxShadow boxShadow = BoxShadow(color: Colors.transparent);
   BoxShadow boxShadowButton = BoxShadow(color: Colors.transparent);
@@ -199,8 +199,7 @@ class TitaniumTheme extends BaseTheme {
   Color animationOverlayStrong = black.withOpacity(0.85);
 
   Brightness brightness = Brightness.dark;
-  SystemUiOverlayStyle statusBar =
-      SystemUiOverlayStyle.light.copyWith(statusBarColor: Colors.transparent);
+  SystemUiOverlayStyle statusBar = SystemUiOverlayStyle.light.copyWith(statusBarColor: Colors.transparent);
 
   BoxShadow boxShadow = BoxShadow(color: Colors.transparent);
   BoxShadow boxShadowButton = BoxShadow(color: Colors.transparent);
@@ -273,17 +272,10 @@ class IndiumTheme extends BaseTheme {
   Color animationOverlayStrong = white.withOpacity(0.85);
 
   Brightness brightness = Brightness.light;
-  SystemUiOverlayStyle statusBar =
-      SystemUiOverlayStyle.dark.copyWith(statusBarColor: Colors.transparent);
+  SystemUiOverlayStyle statusBar = SystemUiOverlayStyle.dark.copyWith(statusBarColor: Colors.transparent);
 
-  BoxShadow boxShadow = BoxShadow(
-      color: darkDeepBlue.withOpacity(0.1),
-      offset: Offset(0, 5),
-      blurRadius: 15);
-  BoxShadow boxShadowButton = BoxShadow(
-      color: darkDeepBlue.withOpacity(0.2),
-      offset: Offset(0, 5),
-      blurRadius: 15);
+  BoxShadow boxShadow = BoxShadow(color: darkDeepBlue.withOpacity(0.1), offset: Offset(0, 5), blurRadius: 15);
+  BoxShadow boxShadowButton = BoxShadow(color: darkDeepBlue.withOpacity(0.2), offset: Offset(0, 5), blurRadius: 15);
 
   OverlayTheme qrScanTheme = OverlayTheme.INDIUM;
   AppIconEnum appIcon = AppIconEnum.INDIUM;
@@ -353,8 +345,7 @@ class NeptuniumTheme extends BaseTheme {
   Color animationOverlayStrong = black.withOpacity(0.85);
 
   Brightness brightness = Brightness.dark;
-  SystemUiOverlayStyle statusBar =
-      SystemUiOverlayStyle.light.copyWith(statusBarColor: Colors.transparent);
+  SystemUiOverlayStyle statusBar = SystemUiOverlayStyle.light.copyWith(statusBarColor: Colors.transparent);
 
   BoxShadow boxShadow = BoxShadow(color: Colors.transparent);
   BoxShadow boxShadowButton = BoxShadow(color: Colors.transparent);
@@ -427,8 +418,7 @@ class ThoriumTheme extends BaseTheme {
   Color animationOverlayStrong = black.withOpacity(0.85);
 
   Brightness brightness = Brightness.dark;
-  SystemUiOverlayStyle statusBar =
-      SystemUiOverlayStyle.light.copyWith(statusBarColor: Colors.transparent);
+  SystemUiOverlayStyle statusBar = SystemUiOverlayStyle.light.copyWith(statusBarColor: Colors.transparent);
 
   BoxShadow boxShadow = BoxShadow(color: Colors.transparent);
   BoxShadow boxShadowButton = BoxShadow(color: Colors.transparent);
@@ -438,6 +428,7 @@ class ThoriumTheme extends BaseTheme {
 }
 
 enum AppIconEnum { NATRIUM, TITANIUM, INDIUM, NEPTUNIUM, THORIUM }
+
 class AppIcon {
   static const _channel = const MethodChannel('fappchannel');
 
@@ -465,7 +456,7 @@ class AppIcon {
         break;
     }
     final Map<String, dynamic> params = <String, dynamic>{
-     'icon': iconStr,
+      'icon': iconStr,
     };
     return await _channel.invokeMethod('changeIcon', params);
   }
