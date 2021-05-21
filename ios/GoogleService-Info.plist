@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>811439383292-5je9at04kr6vm9e7u4ascuigfnh4k5hk.apps.googleusercontent.com</string>
+	<string>811439383292-9mkgmcpspldn54und6ltko5q6jesfast.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.811439383292-5je9at04kr6vm9e7u4ascuigfnh4k5hk</string>
+	<string>com.googleusercontent.apps.811439383292-9mkgmcpspldn54und6ltko5q6jesfast</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCvh-n80acNVbK7haqyibel5rIL3W-YIJI</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>App.tradebo.wefinex.mywallet</string>
+	<string>com.tradebo.wefinex.olacity</string>
 	<key>PROJECT_ID</key>
 	<string>wefinex-wallet</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:811439383292:ios:4c0103604fc68de74a2d79</string>
+	<string>1:811439383292:ios:ee846d28adbdec4b4a2d79</string>
 </dict>
 </plist>
